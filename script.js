@@ -16,16 +16,16 @@ function calcular() {
     if (salarioBruto <= 1412.0) {
       descontoInss = salarioBruto * 0.075;
     }
-  
+
     if (salarioBruto > 1412.0 && salarioBruto <= 2666.68) {
       descontoInss = salarioBruto * 0.09;
     }
-  
-    if (salarioBruto > 2666.68 && salarioBruto <= 4000.03) {
+
+    if (salarioBruto > 2666.68 && salarioBruto <= 4000.2) {
       descontoInss = salarioBruto * 0.12;
     }
-  
-    if (salarioBruto > 4000.03 ) {
+
+    if (salarioBruto >= 4000.3 ) {
       descontoInss = salarioBruto * 0.14;
     }
   
